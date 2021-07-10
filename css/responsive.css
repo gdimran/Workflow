@@ -47,6 +47,15 @@
     .top-banner-sec {
         height: auto;
     }
+    .searchInput {
+        font-size: 14px;
+    }
+    .button_outlined {
+        width: 120px;
+    }
+    .column {
+        min-width: 50px;
+    }
  }
 
 
@@ -62,6 +71,15 @@
     .banner-right-form {
         margin-top: 50px;
         left: 0;
+    }
+    .searchInput {
+        font-size: 14px;
+    }
+    .button_outlined {
+        width: 130px;
+    }
+    .column {
+        min-width: 50px;
     }
 }
 
