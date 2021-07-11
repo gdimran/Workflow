@@ -49,6 +49,7 @@
     }
     .searchInput {
         font-size: 14px;
+        color: #ffffff;
     }
     .button_outlined {
         width: 120px;
@@ -74,6 +75,7 @@
     }
     .searchInput {
         font-size: 14px;
+        color: #ffffff;
     }
     .button_outlined {
         width: 130px;
@@ -88,7 +90,9 @@
     .top-banner-sec {
         height: auto;
     }
-  
+    .column {
+        min-width: 130px;
+    }
     
 }
 

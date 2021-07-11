@@ -87,6 +87,18 @@ border: 0;
 outline: none;
 border-radius: 2px;
 }
+input.searchInput::-webkit-input-placeholder {
+  color: rgb(255, 255, 255);
+}
+input.searchInput:-moz-placeholder {
+    color: rgb(255, 255, 255);
+}
+input.searchInput::-moz-placeholder {
+    color: rgb(255, 255, 255);
+}
+input.searchInput:-ms-input-placeholder{
+    color: rgb(255, 255, 255);
+}
 .fa-search{
     color: #ffffff;
 position: absolute;
@@ -141,14 +153,14 @@ line-height: 35px;
     position: relative;
     width: 100%;
     background-color: #ffffff;
-    overflow: hidden;
+    /* overflow: hidden; */
 
 }
 .top-banner-sec{
     padding-left: 12px;
     padding-right: 12px;
     background-position: top;
-    height: 95vh;
+    height: auto;
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
